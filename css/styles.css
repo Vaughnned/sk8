@@ -1,0 +1,28 @@
+section {
+  border: 1px solid blue;
+  margin-bottom: 30px;
+}
+
+#person1 {
+  border: 2px solid white;
+}
+
+#person2 {
+  border: 2px solid white;
+}
+
+#person3 {
+  border: 2px solid white;
+}
+
+#person4 {
+  border: 2px solid white;
+}
+
+#top-image {
+  border: 5px solid white;
+}
+
+#cards {
+  background-color: white;
+}
