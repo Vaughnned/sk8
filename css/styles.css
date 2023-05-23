@@ -1,28 +1,96 @@
 section {
-  border: 1px solid blue;
   margin-bottom: 30px;
+}
+
+header button {
+  font-size: 15px;
+  justify-content: center;
+}
+
+#skateboards {
+  background-color: white;
 }
 
 #person1 {
   border: 2px solid white;
+  font-size: 2em;
+  color: white;
+  font-weight: 900;
+  justify-content: center;
+  line-height: 1;
 }
 
 #person2 {
   border: 2px solid white;
+  font-size: 2em;
+  color: white;
+  font-weight: 900;
+  justify-content: center;
+  line-height: 1;
 }
 
 #person3 {
   border: 2px solid white;
+  font-size: 2em;
+  color: white;
+  font-weight: 900;
+  justify-content: center;
+  line-height: 1;
 }
 
 #person4 {
   border: 2px solid white;
+  font-size: 2em;
+  color: white;
+  font-weight: 900;
+  justify-content: center;
+  line-height: 1;
 }
 
 #top-image {
   border: 5px solid white;
 }
 
-#cards {
+#card1 {
   background-color: white;
 }
+
+#card2 {
+  background-color: white;
+}
+
+#card3 {
+  background-color: white;
+}
+
+#skateboard1 {
+  transform: rotate(90deg);
+}
+#skateboard2 {
+  transform: rotate(90deg);
+}
+/*
+#skateboard3 {
+  transform: rotate(90deg);
+}
+#skateboard4 {
+  transform: rotate(90deg);
+}
+#skateboard5 {
+  transform: rotate(90deg);
+}
+#skateboard6 {
+  transform: rotate(90deg);
+}
+#skateboard7 {
+  transform: rotate(90deg);
+}
+#skateboard8 {
+  transform: rotate(90deg);
+}
+#skateboard9 {
+  transform: rotate(90deg);
+}
+#skateboard10 {
+  transform: rotate(90deg);
+} */
