@@ -3,8 +3,10 @@ section {
 }
 
 header button {
-  font-size: 15px;
+  font-size: 12px;
   justify-content: center;
+  color: white;
+  background-color: rgb(180, 37, 37);
 }
 
 #skateboards {
@@ -47,29 +49,53 @@ header button {
   line-height: 1;
 }
 
+/* change height of container */
+
+#image-header {
+  height: 100%;
+  width: 100%;
+}
+
 #top-image {
   border: 5px solid white;
 }
 
-#card1 {
-  background-color: white;
+#logo-img {
+  position: absolute;
+  height: 200px;
+  width: 20%;
 }
 
-#card2 {
-  background-color: white;
+.grid-img {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  opacity: 0.5;
 }
 
-#card3 {
+.cards {
   background-color: white;
+  font-size: 15px;
+  text-align: left;
+  padding: 20px;
 }
 
-#skateboard1 {
-  transform: rotate(90deg);
+.cards h2 {
+  font-size: 20px;
 }
+
+.skateboards {
+  transform: rotate(90deg) scale(3);
+}
+
+/* #skateboard1 {
+  transform: rotate(90deg) scale(3);
+}
+
 #skateboard2 {
   transform: rotate(90deg);
 }
-/*
+
 #skateboard3 {
   transform: rotate(90deg);
 }
