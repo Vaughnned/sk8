@@ -1,12 +1,26 @@
+html {
+  max-height: 100%;
+  width: 100%;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+}
+
 section {
   margin-bottom: 30px;
 }
 
 header button {
+  height: 30px;
   font-size: 12px;
   justify-content: center;
+  align-items: center;
   color: white;
   background-color: rgb(180, 37, 37);
+  border-style: none;
+  border-bottom: solid 3px gray;
 }
 
 #skateboards {
@@ -18,8 +32,17 @@ header button {
   font-size: 2em;
   color: white;
   font-weight: 900;
+  display: flex;
   justify-content: center;
+  align-items: center;
   line-height: 1;
+}
+
+#person1::before {
+  height: 200px;
+  width: 200px;
+  border: solid 5px white;
+  background-color: brown;
 }
 
 #person2 {
@@ -27,7 +50,9 @@ header button {
   font-size: 2em;
   color: white;
   font-weight: 900;
+  display: flex;
   justify-content: center;
+  align-items: center;
   line-height: 1;
 }
 
@@ -36,7 +61,9 @@ header button {
   font-size: 2em;
   color: white;
   font-weight: 900;
+  display: flex;
   justify-content: center;
+  align-items: center;
   line-height: 1;
 }
 
@@ -45,8 +72,10 @@ header button {
   font-size: 2em;
   color: white;
   font-weight: 900;
-  justify-content: center;
   line-height: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* change height of container */
@@ -81,42 +110,140 @@ header button {
 }
 
 .cards h2 {
-  font-size: 20px;
+  font-size: 28px;
 }
 
 .skateboards {
   transform: rotate(90deg) scale(3);
 }
 
-/* #skateboard1 {
-  transform: rotate(90deg) scale(3);
+h3 {
+  font-size: 12px;
+  color: lightgray;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
-#skateboard2 {
-  transform: rotate(90deg);
+h4 {
+  font-size: 15px;
+  font-weight: bold;
+  color: brown;
+  text-align: center;
 }
 
-#skateboard3 {
-  transform: rotate(90deg);
+.icons {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
 }
-#skateboard4 {
-  transform: rotate(90deg);
+
+.icons a {
+  margin: 5px;
+  border-radius: 0px;
 }
-#skateboard5 {
-  transform: rotate(90deg);
+
+.social-icon {
+  border-bottom: solid 3px gray;
 }
-#skateboard6 {
-  transform: rotate(90deg);
+
+.f {
+  background-color: darkblue;
 }
-#skateboard7 {
-  transform: rotate(90deg);
+
+.r {
+  background-color: orange;
 }
-#skateboard8 {
-  transform: rotate(90deg);
+
+.t {
+  background-color: lightblue;
 }
-#skateboard9 {
-  transform: rotate(90deg);
+
+.y {
+  background-color: red;
 }
-#skateboard10 {
-  transform: rotate(90deg);
-} */
+
+.more {
+  background: none;
+  color: white;
+}
+
+.more:hover {
+  background: none;
+}
+
+.sub {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.sub:hover {
+  text-decoration: none;
+}
+
+.gray-border {
+  border-bottom: solid 3px gray;
+}
+
+.contact {
+  min-height: 350px;
+  display: flex;
+  position: relative;
+  bottom: 20px;
+  background-color: white;
+  text-align: left;
+}
+
+.contact h1 {
+  font-size: 20px;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.contact-text {
+  padding: 20px;
+}
+
+.contact-text a {
+  border-radius: 0px;
+  background-color: gray;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.text-box {
+  width: 100%;
+  height: 15%;
+  color: lightgray;
+}
+
+.message {
+  text-align: start;
+  width: 100%;
+  height: 30%;
+}
+
+textarea {
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  padding: 5px;
+}
+
+.submit {
+  height: 12%;
+  width: 60%;
+  margin-top: 10px;
+  align-self: flex-end;
+  border: none;
+  background-color: brown;
+  color: white;
+}
