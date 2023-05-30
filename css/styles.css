@@ -27,8 +27,8 @@ header button {
   background-color: white;
 }
 
-#person1 {
-  border: 2px solid white;
+.people {
+  border: 4px solid white;
   font-size: 2em;
   color: white;
   font-weight: 900;
@@ -37,48 +37,6 @@ header button {
   align-items: center;
   line-height: 1;
 }
-
-#person1::before {
-  height: 200px;
-  width: 200px;
-  border: solid 5px white;
-  background-color: brown;
-}
-
-#person2 {
-  border: 2px solid white;
-  font-size: 2em;
-  color: white;
-  font-weight: 900;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  line-height: 1;
-}
-
-#person3 {
-  border: 2px solid white;
-  font-size: 2em;
-  color: white;
-  font-weight: 900;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  line-height: 1;
-}
-
-#person4 {
-  border: 2px solid white;
-  font-size: 2em;
-  color: white;
-  font-weight: 900;
-  line-height: 1;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-/* change height of container */
 
 #image-header {
   height: 100%;
